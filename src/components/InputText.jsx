@@ -20,7 +20,7 @@ const InputText = () => {
       <input
         type="text"
         value={input}
-        onChange={(e) => setInput(e.target.value)} // J'ai corrigé "setIpnut" en "setInput"
+        onChange={(e) => setInput(e.target.value)}
         placeholder="Chercher un endroit..."
         className="bg-second-bg h-12 flex-1 rounded-xl px-4 font-medium transition-all outline-none focus:ring-2 focus:ring-blue-500/50"
       />

@@ -2,7 +2,7 @@ import React from "react";
 
 const Headers = () => {
   return (
-    <div className="flex-col-center main-container flex gap-8 p-4">
+    <div className="flex-col-center main-container flex gap-10 p-4">
       <div className="flex-between w-full">
         <div className="flex-center gap-2">
           <i className="ri-snowflake-fill text-logo text-3xl lg:text-4xl"></i>

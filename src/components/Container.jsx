@@ -169,7 +169,7 @@ const Container = () => {
         animate={{ opacity: 1, y: 0 }}
         exit={{ opacity: 0 }}
         transition={{ duration: 0.5 }}
-        className="mx-auto mt-8 flex w-full max-w-7xl flex-col items-start gap-6 p-4 sm:p-5 lg:flex-row"
+        className="mx-auto flex w-full max-w-7xl flex-col items-start gap-6 p-4 sm:p-5 lg:flex-row"
       >
         <div className="flex w-full flex-col gap-6 md:gap-8 lg:w-[70%] xl:w-[75%]">
           <div

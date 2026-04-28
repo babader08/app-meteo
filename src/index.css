@@ -52,6 +52,11 @@
 }
 
 @layer base {
+  body,
+  html {
+    width: 100%;
+    overflow-x: hidden;
+  }
   h1 {
     color: white;
     font-family:
