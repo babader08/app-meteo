@@ -21,6 +21,7 @@ const WeatherProvider = ({ children }) => {
   const [error, setError] = useState(null);
 
   const apiKey = import.meta.env.VITE_API_KEY;
+  console.log("Ma clé est :", import.meta.env.VITE_WEATHER_API_KEY);
 
   const fetchWeather = useCallback(
     async (value) => {
