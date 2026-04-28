@@ -1,0 +1,90 @@
+@import "tailwindcss";
+
+@import url("https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap");
+
+@theme {
+  --color-main-bg: #02012b; /* couleur pour le fond du body */
+  --color-second-bg: #25253f; /* couleur pour le fond du input et le rests */
+  --color-items-bg: #2f2f49; /* couleur pour le fond des enfants du sidebar */
+  --color-btn-bg: #4657da; /* couleur pour le fond des buttons */
+  --color-logo: #fd8819; /* couleur pour le fond des buttons */
+  --font-logo: "";
+}
+
+@utility flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@utility poli-text {
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+@utility flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@utility flex-col-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@utility bord-red {
+  border: 1px solid red;
+}
+@utility bord-white {
+  border: 1px solid white;
+}
+
+@utility shadow-gay {
+  box-shadow: 0 0 1px rgb(229, 229, 229);
+}
+
+@utility main-container {
+  @apply mx-auto w-full max-w-6xl;
+}
+
+@layer base {
+  h1 {
+    color: white;
+    font-family:
+      "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+
+  h2 {
+    color: white;
+  }
+
+  i {
+    color: white;
+  }
+
+  button {
+    color: white;
+  }
+
+  h4 {
+    color: white;
+  }
+  span {
+    color: white;
+  }
+  input::placeholder {
+    color: rgb(170, 170, 170);
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  input {
+    outline: none;
+    color: white;
+  }
+}
