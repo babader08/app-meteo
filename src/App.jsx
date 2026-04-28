@@ -5,7 +5,7 @@ import WeatherProvider from "./provider/WeatherProvider";
 
 const App = () => {
   return (
-    <div className="bg-main-bg flex min-h-screen w-full flex-col overflow-x-hidden">
+    <div className="bg-main-bg flex min-h-dvh w-full flex-col overflow-x-hidden">
       <WeatherProvider>
         <Headers />
         <InputText />
